@@ -90,6 +90,11 @@ LOCATION "${DA.paths.kafka_events}"
 
 -- COMMAND ----------
 
+-- MAGIC %python
+-- MAGIC SELECT * from events_json
+
+-- COMMAND ----------
+
 -- MAGIC %md 
 -- MAGIC
 -- MAGIC  
